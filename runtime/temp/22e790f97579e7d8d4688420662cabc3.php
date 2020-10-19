@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:74:"/Users/zzy/work/php/blog/public/../application/admin/view/login/index.html";i:1581325492;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:74:"/Users/zzy/work/php/blog/public/../application/admin/view/login/index.html";i:1603072187;}*/ ?>
 <!DOCTYPE html>
 <html lang="en" class="bg-dark">
 <head>
@@ -26,11 +26,11 @@
             <form method="post" action="" class="panel-body wrapper-lg">
                 <div class="form-group">
                     <label class="control-label">用户名</label>
-                    <input required type="text" class="form-control input-lg" name="admin_username">
+                    <input  type="text" class="form-control input-lg" name="admin_username">
                 </div>
                 <div class="form-group">
                     <label class="control-label">密 码</label>
-                    <input required type="password"  class="form-control input-lg" name="admin_password">
+                    <input  type="password"  class="form-control input-lg" name="admin_password">
                 </div>
                 <div class="form-group">
                     <label class="control-label">验证码</label>

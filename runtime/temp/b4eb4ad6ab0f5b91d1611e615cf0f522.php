@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:74:"/Users/zzy/work/php/blog/public/../application/admin/view/entry/index.html";i:1603074239;s:57:"/Users/zzy/work/php/blog/application/admin/view/base.html";i:1603075552;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:73:"/Users/zzy/work/php/blog/public/../application/admin/view/entry/pass.html";i:1603076499;s:57:"/Users/zzy/work/php/blog/application/admin/view/base.html";i:1603075552;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -175,34 +175,43 @@
         <div class="col-xs-12 col-sm-9 col-lg-10">
             
             
-<table class="table table-hover">
-    <tbody>
-    <tr>
-        <th class="active" colspan="10">温馨提示</th>
-    </tr>
-    <tr>
-        <td colspan="10">
-            后盾网官网：<a href="http://www.houdunwang.com" target="_blank">www.houdunwang.com</a>
-            后盾网论坛：<a href="http://bbs.houdunwang.com" target="_blank">bbs.houdunwang.com</a>
-        </td>
-    </tr>
-    <tr>
-        <th class="active" colspan="10">系统信息</th>
-    </tr>
-    <tr>
-        <td>核心框架</td>
-        <td colspan="5">Thinkphp</td>
-    </tr>
-    <tr>
-        <td>版本号</td>
-        <td colspan="5">1.0</td>
-    </tr>
-    <tr>
-        <td>开发者</td>
-        <td colspan="5">后盾网武斌</td>
-    </tr>
-    </tbody>
-</table>
+<ol class="breadcrumb" style="background-color: #f9f9f9;padding:8px 0;margin-bottom:10px;">
+    <li>
+        <a href="javascript:;"><i class="fa fa-cogs"></i>
+            密码管理</a>
+    </li>
+    <li class="active">
+        <a href="javascript:;">修改密码</a>
+    </li>
+</ol>
+<form class="form-horizontal" id="form" action="" method="post">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">修改密码</h3>
+        </div>
+        <div class="panel-body">
+            <div class="form-group">
+                <label for="" class="col-sm-2 control-label">原始密码</label>
+                <div class="col-sm-9">
+                    <input  type="text" name="admin_password"  class="form-control" placeholder="请填写原始密码">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="" class="col-sm-2 control-label">新密码</label>
+                <div class="col-sm-9">
+                    <input  type="text" name="new_password"  class="form-control" placeholder="请填写新密码">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="" class="col-sm-2 control-label">确认密码</label>
+                <div class="col-sm-9">
+                    <input  type="text" name="confirm_password"  class="form-control" placeholder="请填写确认密码">
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="btn btn-primary" type="submit">确定</button>
+</form>
 
         </div>
     </div>
