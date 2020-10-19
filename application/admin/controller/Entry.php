@@ -2,9 +2,7 @@
 
 namespace app\admin\controller;
 
-use think\Controller;
-
-class Entry extends Controller
+class Entry extends Common
 {
     //后台首页
     public function index() {
